@@ -38,13 +38,13 @@ The 2000-2016 has overwhemingly more female athletes in it. So we ran the same h
 
 For the male athletes, out of 10,000 trials, we attained a p-value of less than 0.05 only 21 times. 9,978 times out of 10,000 our p-value was greater than 0.05. Based on this evidence, we failed to reject the null hypothesis, which suggests that the BMI has not changed for male athletes in the Olympics over the last 100 years.
 
-For the female athletes,
+For the female athletes, the same z-test model was perfomed to analyze two hypothesis questions. One hypothesis was to see if there was a difference in BMI measurements of women from 1996 and 2016 and the other hypothesis was to see if there was any age difference in women participants from 1996 and 2016. The 1996 Summer Olympics was considered the "Summer of Women" because the U.S. women's sports teams dominated in the majority of the sports they performed in. Was this feat enough to cause some change in the Olympic women participants 20 years later?
 
+After running the z-tests, the p-value generated was greater than our alpha value of 0.05 and thus we could not reject our null hypothesis. As a result, it was concluded that there no significant difference in the BMI measurements or age of women for the 1996 and 2016 Olympics. The distributions are displayed below.
 
+![Histogram](BMI_females_1996_vs_2016.png)
 
-
-
-
+![Histogram](Ages_females_1996_vs_2016.png)
 
 
 

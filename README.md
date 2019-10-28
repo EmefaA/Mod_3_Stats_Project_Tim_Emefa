@@ -22,7 +22,7 @@ To exercise a basic z-test, we decided to take random samples of the 2000-2016 p
 From this test, we found a p-value less than 0.05 came up nearly 2,500 times out of the 10,000 simulations. From this evidence we rejected the null hypothesis and accepted that the BMI's had changed over time. Since we have the actual populations, we can just look at the means for comparison to confirm our statistics.
 
 ![equation](http://latex.codecogs.com/gif.latex?%24%24%5Cmu_%7B1990%7D%20%3D%2023.26%5C%5C%24%24)
-
+![equation](http://latex.codecogs.com/gif.latex?%24%24%5Cmu_%7B2000%7D%20%3D%2022.78%5C%5C%24%24)
 
 Yes, they're different.
 

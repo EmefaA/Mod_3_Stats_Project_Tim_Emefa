@@ -16,9 +16,7 @@ To start, we observed the kernel density plots and histograms of the two populat
 
 To exercise a basic z-test, we decided to take random samples of the 2000-2016 population and run our hypothesis tests against the known 1900-1916 population. We chose to use the standard $\alpha = 0.05$ and decided to run a z-test 10,000 times. From this we observed all the resulting p-values. If the two populations are one in the same, we would expect a p-value of 0.05 to come up 5% of the time or around 500 times. Our null hypothesis stated no change between the BMI populations (a p-value of 0.05 comes up close to 500 times or less), and the alternative hypothesis stated a difference between the populations (a p-value of 0.05 or less comes up much more frequently than 500 times). 
 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=H_0:&space;\mathrm{There\&space;is\&space;no\&space;difference\&space;in\&space;BMI\&space;between\&space;populations}\&space;H_1:&space;\mathrm{There\&space;is\&space;a\&space;difference}\&space;\end{align}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0:&space;\mathrm{There\&space;is\&space;no\&space;difference\&space;in\&space;BMI\&space;between\&space;populations}\&space;H_1:&space;\mathrm{There\&space;is\&space;a\&space;difference}\&space;\end{align}" title="H_0: \mathrm{There\ is\ no\ difference\ in\ BMI\ between\ populations}\ H_1: \mathrm{There\ is\ a\ difference}\ \end{align}" /></a>
-<a href="https://www.codecogs.com/eqnedit.php?latex=H_1:&space;\mathrm{There\&space;is\&space;a\&space;difference}\\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?
+https://latex.codecogs.com/gif.latex?H_0
 
 From this test, we found a p-value less than 0.05 came up nearly 2,500 times out of the 10,000 simulations. From this evidence we rejected the null hypothesis and accepted that the BMI's had changed over time. Since we have the actual populations, we can just look at the means for comparison to confirm our statistics.
 

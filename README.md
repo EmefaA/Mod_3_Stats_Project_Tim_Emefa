@@ -16,14 +16,11 @@ To start, we observed the kernel density plots and histograms of the two populat
 
 To exercise a basic z-test, we decided to take random samples of the 2000-2016 population and run our hypothesis tests against the known 1900-1916 population. We chose to use the standard $\alpha = 0.05$ and decided to run a z-test 10,000 times. From this we observed all the resulting p-values. If the two populations are one in the same, we would expect a p-value of 0.05 to come up 5% of the time or around 500 times. Our null hypothesis stated no change between the BMI populations (a p-value of 0.05 comes up close to 500 times or less), and the alternative hypothesis stated a difference between the populations (a p-value of 0.05 or less comes up much more frequently than 500 times). 
 
-![equation](https://latex.codecogs.com/gif.latex?H_0)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign%7D%20H_0%20%26%3A%20%5Cmathrm%7BThere%5C%20is%5C%20no%5C%20difference%5C%20in%5C%20BMI%5C%20between%5C%20populations%7D%5C%5C%20H_1%20%26%3A%20%5Cmathrm%7BThere%5C%20is%5C%20a%5C%20difference%7D%5C%5C%20%5Cend%7Balign%7D)
 
 From this test, we found a p-value less than 0.05 came up nearly 2,500 times out of the 10,000 simulations. From this evidence we rejected the null hypothesis and accepted that the BMI's had changed over time. Since we have the actual populations, we can just look at the means for comparison to confirm our statistics.
 
-\begin{align}
-\mu_1900 &= 23.26\
-\mu_2000 &= 22.78\
-\end{align}
+![equation](https://latex.codecogs.com/gif.latex?%5Cmu_%7B1900%7D%20%3D%2023.26%5C%20%5Cmu_%7B2000%7D%3D%2022.78)
 
 Yes, they're different.
 
